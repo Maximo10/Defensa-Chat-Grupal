@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="430.0" style="-fx-background-color: #ece5dd; -fx-padding: 15; -fx-border-radius: 10; -fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="62.0" prefWidth="394.0" style="-fx-background-color: #ece5dd; -fx-border-color: green; -fx-border-width: 3; -fx-border-radius: 8;">
+         <children>
+            <Label layoutX="11.0" layoutY="21.0" text="Bienvenido a Grupo Rober">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button id="btn_uirse_chat" layoutX="245.0" layoutY="17.0" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #25d366; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="Unirse" />
+         </children></Pane>
+      <ListView id="area_lista_chats" prefHeight="254.0" prefWidth="394.0" style="-fx-border-color: green; -fx-border-width: 3; -fx-border-radius: 8;" />
+      <Pane layoutX="28.0" layoutY="28.0" prefHeight="47.0" prefWidth="364.0" style="-fx-background-color: #ece5dd; -fx-border-color: green; -fx-border-width: 3; -fx-border-radius: 8;">
+         <children>
+             <TextField id="area_nombre_chat" fx:id="bara_texto" layoutX="14.0" layoutY="8.0" prefHeight="30.0" prefWidth="270.0" promptText="Escribe tu mensaje..." style="-fx-background-color: #ffffff; -fx-text-fill: #000000; -fx-prompt-text-fill: #888888; -fx-border-color: green; -fx-padding: 5; -fx-border-width: 2; -fx-border-radius: 5;" />
+            <Button id="btn_new_chat" fx:id="" layoutX="290.0" layoutY="9.0" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #25d366; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="Crear" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
